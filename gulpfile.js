@@ -17,7 +17,7 @@ var
   cssnano = require('cssnano')
 
 // modo de desenvolvimento?
-devBuild = true
+devBuild = (process.env.NODE_ENV !== 'production');
 
 // folders
 folder = {
